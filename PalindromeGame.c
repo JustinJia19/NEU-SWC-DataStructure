@@ -22,7 +22,7 @@ int main()
 	SqStack S;
 	int label = 0;
 	
-	printf("ÇëÊäÈë×Ö·û´®£º\n");
+	printf("è¯·è¾“å…¥å­—ç¬¦ä¸²ï¼š\n");
 	fgets(input, sizeof(input), stdin);
 	input[strcspn(input, "\n")] = '\0';
 	getChar(input, output);
@@ -42,9 +42,9 @@ int main()
 		}
 	}
 	if (label == 1)
-		printf("²»ÊÇ»ØÎÄ£¡");
+		printf("ä¸æ˜¯å›æ–‡ï¼");
 	else
-		printf("ÊÇ»ØÎÄ£¡");
+		printf("æ˜¯å›æ–‡ï¼");
 
 	return 0;
 }
