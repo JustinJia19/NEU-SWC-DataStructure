@@ -17,8 +17,8 @@ void Push(SqStack* S, SElemType e)
 {
 	if (S->top - S->base == S->stacksize)
 	{
-		printf("Õ»ÒÑÂú£¡\n");
-		return;//Õ»Âú
+		printf("Ã•Â»Ã’Ã‘Ã‚ÃºÂ£Â¡\n");
+		return;//Ã•Â»Ã‚Ãº
 	}
 	*S->top = e;
 	S->top++;
